@@ -454,7 +454,7 @@ ul {
 .main-header__top-inner {
   position: relative;
   display: block;
-  padding: 36px 0 27px;
+  padding: 36px 110px 3px;
 }
 
 .main-header__logo {
@@ -12954,4 +12954,12 @@ body.boxed-wrapper {
   color: var(--ambed-gray);
   font-weight: 400;
   padding-left: 33px;
+}
+
+  .full-width-header-content {
+    width: 100%; /* Make it span full width */
+    padding-left: 15px; /* Keep some padding from the edges */
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
