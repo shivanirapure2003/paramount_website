@@ -3471,10 +3471,8 @@ ul {
 
 .quality-work__img img {
   width: 100%;
-   max-width: 70% ;
-    height: auto ;
-    margin-left: 100px ;
-    margin-top: 200px;
+  
+   
 }
 
 .quality-work__small-img {
@@ -10137,9 +10135,7 @@ ul {
 
 .about-two__img-1 img {
   width: 100%;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
+ 
 }
 
 .about-two__img-2 {
