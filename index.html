@@ -144,7 +144,7 @@
                                 <div class="main-menu__main-menu-box">
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
-                                        <li class="dropdown current megamenu">
+                                        <li>
                                             <a href="index.html">Home </a>
                                         </li>
                                         <li>
@@ -162,12 +162,17 @@
                                                 <li><a href="PARABOND CRF .html">PARABOND-CRF</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown">
+                                        <li>
                                             <a href="services.html">Career</a>
 
                                         </li>
 
+                                        <!--                                     
                                         <li class="dropdown">
+                                            <a href="blog.html">Blog</a>
+
+                                        </li> -->
+                                        <li>
                                             <a href="blog.html">Blog</a>
 
                                         </li>
@@ -646,37 +651,39 @@
                                 <h2 class="section-title__title">What Our Customers Say?</h2>
                                 <div class="section-title__line"></div>
                             </div>
-                            <p class="testimonial-one__text">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor to
-                                incidut labore et dolore magna for aliqua.</p>
+                            <p class="testimonial-one__text">Our clients trust us for quality, reliability, and
+                                long-lasting results. Here’s what they have to say about their experience with
+                                Paramount’s construction solutions.</p>
                         </div>
                     </div>
                     <div class="col-xl-9">
                         <div class="testimonial-one__right">
                             <div class="owl-carousel owl-theme thm-owl__carousel testimonial-one__carousel"
                                 data-owl-options='{
-                                "loop": true,
-                                "autoplay": false,
-                                "margin": 30,
-                                "nav": false,
-                                "dots": true,
-                                "smartSpeed": 500,
-                                "autoplayTimeout": 10000,
-                                "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-                                "responsive": {
-                                    "0": {
-                                        "items": 1
-                                    },
-                                    "768": {
-                                        "items": 1
-                                    },
-                                    "992": {
-                                        "items": 2
-                                    },
-                                    "1200": {
-                                        "items": 2.25545
-                                    }
-                                }
-                            }'>
+        "loop": true,
+        "autoplay": true,
+        "margin": 30,
+        "nav": false,
+        "dots": true,
+        "smartSpeed": 500,
+        "autoplayTimeout": 5000,
+        "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+        "responsive": {
+            "0": {
+                "items": 1
+            },
+            "768": {
+                "items": 1
+            },
+            "992": {
+                "items": 2
+            },
+            "1200": {
+                "items": 2.25545
+            }
+        }
+    }'>
+
                                 <!--Testimonial One Single-->
                                 <div class="testimonial-one__single">
                                     <div class="testimonial-one__quote">
@@ -778,13 +785,13 @@
         <!--Testimonial One End-->
 
         <!--Brand One Start-->
-        <section class="brand-one">
+        <!-- <section class="brand-one">
             <div class="container">
                 <div class="brand-one__inner">
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="brand-one__title">
-                                <h2>Trusted by More then 8800 Most Popular Brands</h2>
+                                <h2>Trusted by More then 100+ Most Popular Brands</h2>
                             </div>
                         </div>
                         <div class="col-xl-9">
@@ -814,7 +821,37 @@
                                 "spaceBetween": 100,
                                 "slidesPerView": 5
                             }
-                        }}'>
+                        }}'> -->
+        <section class="brand-one">
+            <div class="container">
+                <div class="brand-one__inner">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="brand-one__title">
+                                <h2>Trusted by More than 100+ Most Popular Brands</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-9">
+                            <div class="brand-one__main-content">
+                                <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+                                "loop": true,
+                                "freeMode": true,
+                                "speed": 5000,
+                                "autoplay": {
+                                    "delay": 0,
+                                    "disableOnInteraction": false
+                                },
+                                "spaceBetween": 100,
+                                "slidesPerView": 5,
+                                "breakpoints": {
+                                    "0": { "spaceBetween": 30, "slidesPerView": 2 },
+                                    "375": { "spaceBetween": 30, "slidesPerView": 2 },
+                                    "575": { "spaceBetween": 30, "slidesPerView": 3 },
+                                    "767": { "spaceBetween": 50, "slidesPerView": 4 },
+                                    "991": { "spaceBetween": 50, "slidesPerView": 5 },
+                                    "1199": { "spaceBetween": 100, "slidesPerView": 5 }
+                                }
+                            }'>
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <img src="assets/images/brand/Screenshot 2025-05-31 183459.png" alt="">
@@ -1075,7 +1112,7 @@
 
             <div class="logo-box">
                 <a href="index.html" aria-label="logo image"><img src="assets/images/resources/footer-logo.png"
-                        width="155" alt="" /></a>
+                        width="90" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
