@@ -676,7 +676,7 @@
     }
 
     .error-page__title {
-        font-size: 90px;
+        font-size: 60px;
     }
 
     .blog-details__pagenation li+li {
@@ -1316,8 +1316,8 @@
     }
 
     .error-page__title {
-        font-size: 90px;
-        line-height: 135px;
+        font-size: 60px;
+        line-height: 75px;
         margin-bottom: 8px;
     }
 
